@@ -14,6 +14,8 @@ a {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,7 +48,7 @@ p {
   line-height: 150%;
   letter-spacing: 0.02em;
   text-decoration: none;
-
+  display: block;
   display: flex;
   gap: 40px;
 }
@@ -66,6 +68,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
 
   padding-top: 24px;
   padding-bottom: 24px;
@@ -83,6 +86,10 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-size: 16px;
+  padding: 24px 0;
+  display: block;
+  font-style: normal;
 }
 .link-address:hover {
   color: #404bbf;
@@ -91,11 +98,8 @@ p {
   color: #404bbf;
 }
 .contacts {
-  color: #434455;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+}
+.address {
 }
 
 .main-address {
@@ -272,9 +276,10 @@ img {
   align-items: center;
 }
 
-.addres-list {
+.address-list {
   display: flex;
   gap: 40px;
+  
 
   /* margin: 0;
   padding-left: 0; */
